@@ -1,18 +1,15 @@
-.btn {
-  background-color: #ffffff;
-  color: rebeccapurple;
-  font-family: inherit;
-  font-weight: bold;
-  padding: 14rem;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
 }
-  
-.btn:focus {
-  outline: none;
-}
-    
-.btn:active {
-  transform: scale(0.98);
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
